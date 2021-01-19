@@ -365,9 +365,304 @@ process CSS
 /*********************
 pricing CSS
 **********************/
+.pricing-section{
+	width: 100%;
+	padding: 80px 0;
+	background-color: #f5f5f5;
+}
+.pricing{
+	text-align: center;
+}
+.pricing h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color:#212121;
+	text-transform: uppercase ;
+}
+.pricing p{
+	color:#86878b !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300 !important;
+
+}
+.price-table{
+	margin: 30px 0;
+    text-align: center;
+}
+.price-table .row{
+	align-items: flex-end;
+}
+.price-table-1, .price-table-2, .price-table-3 {
+    margin: 0 25px;
+}
+.price-header{
+	background: #000;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+.price-header h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color:#fff;
+}
+.single-price{
+	background: #000;
+    padding: 40px 0;
+    color: #fff;
+    border-bottom: 5px solid #ff8b38;
+}
+
+.single-price h1{
+	margin-bottom: 15px;
+}
+.single-price h1 span{
+	font-size: 56px;
+	font-weight: 700;
+}
+.single-price p{
+		color: #fff !important;
+}
+.middle .single-price{
+	border:none;
+	padding: 0;
+}
+.special{
+	 padding: 40px 0;
+}
+.popular{
+	background-color: #ff8b38;
+	padding: 10px 0;
+}
+.popular p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 0;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	margin: 0 !important;
+}
+.price-list{
+	background: #fff;
+}
+.price-list ul{
+	margin:0;
+	padding: 0;
+}
+.price-list ul li{
+	border-bottom: 1px solid #f5f5f5;
+	padding: 5px 0;
+}
+.price-list ul li:last-child{
+	border-bottom:none;
+}
 /*********************
 Testimonia CSS
 **********************/
+.testimonial-section{
+	width: 100%;
+	padding: 60px 0;
+}
+.testimonial{
+	text-align: center;
+}
+.testimonial h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color:#212121;
+	text-transform: uppercase ;
+}
+.testimonial p{
+	color:#86878b !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300 !important;
+}
+.message{
+    background-color: #f5f5f5;
+    margin: 0 48px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    position: relative;
+    border-radius: 3px;
+}
+.message .corner{
+	height: 30px;
+    width: 30px;
+    background: #f5f5f5;
+    position: absolute;
+    left: 30px;
+    top: 144px;
+    transform: rotate(45deg);
+}
+ .user{
+ 	margin-top: 20px;
+ }
+ .user .col-md-4{
+ 	margin-top: 4px;
+ 	padding-right: : 0;
+     }
+ .user .col-md-8{
+ 	text-align: left;
+ 	padding-left: 0;
+ }
+.user ,.col-md-4 img{
+	margin-left: 28px;
+}
+.user .col-md-8 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color:#333;
+}
+.user .col-md-8 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color:#a1a2a5;
+}
 /*********************
-footer CSS
+custom CSS
 **********************/
+.custom-section{
+	background-image: url(../img/custom_panel.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 60px 0;
+}
+.custom{
+	text-align: center;
+}
+.custom h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color:#fff;
+	text-transform: uppercase ;
+}
+.custom .line{
+	width: 90px;
+    height: 2px;
+    background: #fff;
+    margin: 30px auto;
+}
+.custom p{
+	color:#86878b !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300 !important;
+}
+.custom button{
+	margin-top: 15px;
+	background: transparent;
+    padding: 7px 15px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.custom button:hover{
+	background:#fff;
+	color: #000;
+}
+/*******************
+Contact Css
+*******************/
+.contact-section{
+	width: 100%;
+	padding: 60px 0;
+}
+.contact{
+	text-align: center;
+}
+.contact h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color:#212121;
+	text-transform: uppercase ;
+}
+.contact .line{
+	width: 90px;
+    height: 1px;
+    background: #ff9b51;
+    margin: 20px auto;
+}
+.contact p{
+	color:#86878b !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300 !important;
+	margin-bottom: 60px;
+}
+.contact-input input{
+	font-family: 'Open Sans', sans-serif;
+	width: 95%;
+	border:none;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+.contact-input input::placeholder{
+	color: #ccc;
+}
+textarea{
+	font-family: 'Open Sans', sans-serif;
+	width: 95%;
+	color:#ccc;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    height: 164px;
+    padding: 25px;
+}
+textarea:focus{
+	outline:none;
+}
+.send-btn button{
+	margin-top: 30px;
+	background: #ff9b51 ;
+    padding: 7px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    color: #fff;
+    border-radius: 3px;
+}
+/******************
+Footer section CSS
+*******************/
+.footer-section{
+	width: 100%;
+	background-color: #000;
+	padding: 20px 0;
+}
+.footer ul li{
+	display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 40px;
+}
+.footer ul li a{
+	color: #fff;
+	font-size: 24px;
+	color:#ccc;
+}
+.footer ul li :hover{
+	transform: scale(1.5);
+	transition: all .3s;
+}
+.copyright p{
+	text-align: center;
+	color: #ccc;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 12px;
+	 font-weight: 300;
+}
